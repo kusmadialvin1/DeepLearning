@@ -1,0 +1,32 @@
+TRADITIONAL ML RESULTS
+=====================
+Accuracy: 0.2000
+Classes: 18
+Training samples: 1460
+Test samples: 155
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+                apple leaf       0.23      0.33      0.27         9
+           apple rust leaf       0.00      0.00      0.00        10
+           Apple Scab Leaf       0.00      0.00      0.00        10
+          bell pepper leaf       0.00      0.00      0.00         7
+     bell pepper leaf spot       0.00      0.00      0.00         9
+            blueberry leaf       1.00      0.09      0.17        11
+               cherry leaf       0.00      0.00      0.00        10
+       Corn Gray leaf spot       0.00      0.00      0.00         3
+            corn rust leaf       0.50      0.30      0.38        10
+                grape leaf       0.00      0.00      0.00        10
+      grape leaf black rot       0.00      0.00      0.00         8
+       leaf blight of corn       0.27      0.83      0.41        12
+                peach leaf       0.15      0.67      0.25         9
+  Potato leaf early blight       0.03      0.12      0.05         8
+   Potato leaf late blight       0.33      0.14      0.20         7
+            raspberry leaf       0.17      0.29      0.21         7
+             soyabean leaf       0.00      0.00      0.00         8
+Squash Powdery mildew leaf       0.36      0.57      0.44         7
+
+                  accuracy                           0.20       155
+                 macro avg       0.17      0.19      0.13       155
+              weighted avg       0.19      0.20      0.14       155

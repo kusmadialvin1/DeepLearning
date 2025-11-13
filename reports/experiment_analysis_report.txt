@@ -1,0 +1,26 @@
+TRADITIONAL ML EXPERIMENT ANALYSIS REPORT
+==================================================
+
+OVERALL RESULTS
+--------------------
+Final Test Accuracy: 0.2387
+
+HYPERPARAMETER ANALYSIS
+-------------------------
+Best C parameter: 10
+Best validation accuracy: 0.2387
+
+FEATURE ABLATION RESULTS
+----------------------------
+HOG Only: 0.2065
+Color Only: 0.1871
+All Features: 0.2387
+
+FAILURE ANALYSIS
+--------------------
+Top confusing class pairs:
+  leaf blight of corn ¡ú Corn Gray leaf spot: 6 cases
+  cherry leaf ¡ú apple leaf: 5 cases
+  grape leaf ¡ú raspberry leaf: 5 cases
+  apple rust leaf ¡ú Potato leaf early blight: 4 cases
+  peach leaf ¡ú leaf blight of corn: 4 cases

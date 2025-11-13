@@ -1,0 +1,61 @@
+PLANTDOC DISEASE CLASSIFICATION - ENHANCED TRADITIONAL ML REPORT
+================================================================================
+
+EXPERIMENT SUMMARY
+--------------------
+Method: Enhanced Feature Extraction (HOG + Color Histogram + LBP) + SVM
+Total Test Samples: 155
+Number of Classes: 18
+Overall Accuracy: 0.2387
+Correct Predictions: 37
+Wrong Predictions: 118
+
+PER-CLASS PERFORMANCE ANALYSIS
+------------------------------
+Class                          Accuracy   Error Rate   Samples    Status         
+--------------------------------------------------------------------------------
+apple leaf                     0.4444     0.5556       9          Medium         
+apple rust leaf                0.0000     1.0000       10         Needs Improvement
+Apple Scab Leaf                0.0000     1.0000       10         Needs Improvement
+bell pepper leaf               0.0000     1.0000       7          Needs Improvement
+bell pepper leaf spot          0.0000     1.0000       9          Needs Improvement
+blueberry leaf                 0.1818     0.8182       11         Needs Improvement
+cherry leaf                    0.0000     1.0000       10         Needs Improvement
+Corn Gray leaf spot            0.0000     1.0000       3          Needs Improvement
+corn rust leaf                 0.6000     0.4000       10         Medium         
+grape leaf                     0.2000     0.8000       10         Needs Improvement
+grape leaf black rot           0.1250     0.8750       8          Needs Improvement
+leaf blight of corn            0.4167     0.5833       12         Medium         
+peach leaf                     0.4444     0.5556       9          Medium         
+Potato leaf early blight       0.2500     0.7500       8          Needs Improvement
+Potato leaf late blight        0.2857     0.7143       7          Needs Improvement
+raspberry leaf                 0.5714     0.4286       7          Medium         
+soyabean leaf                  0.2500     0.7500       8          Needs Improvement
+Squash Powdery mildew leaf     0.4286     0.5714       7          Medium         
+
+TOP PERFORMING CLASSES (Accuracy > 70%)
+-----------------------------------
+No classes achieved >70% accuracy
+
+CLASSES NEEDING IMPROVEMENT (Accuracy < 40%)
+----------------------------------------
+apple rust leaf                0.0000
+Apple Scab Leaf                0.0000
+bell pepper leaf               0.0000
+bell pepper leaf spot          0.0000
+cherry leaf                    0.0000
+Corn Gray leaf spot            0.0000
+grape leaf black rot           0.1250
+blueberry leaf                 0.1818
+grape leaf                     0.2000
+Potato leaf early blight       0.2500
+soyabean leaf                  0.2500
+Potato leaf late blight        0.2857
+
+MODEL INFORMATION
+--------------------
+Feature Extraction: HOG + Color Histogram + LBP
+Classifier: Support Vector Machine (SVM)
+Kernel: RBF
+Regularization (C): 10.0
+Saved model: models/traditional_ml_enhanced/
